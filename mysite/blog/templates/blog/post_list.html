@@ -1,0 +1,13 @@
+﻿{% extends 'mysite/base.html' %}
+{% block content %}
+    {% for post in object_list %}
+        <p>{{ post.datetime }}</p>
+        <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.content }}</p>
+    {% empty %}
+    <p>Нет постов</p>
+    {% endfor %}
+
+{% endblock %}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         юя
+  яяяяІZ¤
+ћС¤ АO№2є   Quill96 Story Group Class яяяя       ф9Іq                                                                                                                                                                                                                                                                                                                                                                                                                                                     
